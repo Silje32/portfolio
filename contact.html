@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <meta name="keywords" content="portfolio,designer,coder">
+     <meta name="designer" content="Silje Heldal Monsen">
+     <meta name="description" content="Official portfolio website for Silje Heldal Monsen">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Portfolio for Silje Heldal Monsen </title>
+
+     <!-- Typeface headings: Haboro Serif Norm Demi  -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+
+
+     <!-- Typeface body text: Haboro Serif Norm Medium -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+
+
+     <!-- Typeface action buttons: Haboro Serif Norm Bold -->  
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+
+     <!-- CSS Stylesheet -->
+     <link rel="stylesheet" href="css/style.css">
+ </head>
+ 
+ <body>
+    <header>   
+  <div id="top">
+
+   <a href="menu.html">
+      <img src="images/menu.svg"
+           alt="hamburger menu"
+           class="menu"></a>
+
+        <nav>
+          <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="about.html">ABOUT</a></li>
+             <li><a href="portfolio.html">PORTFOLIO</a></li>
+             <li class="active"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+    </header>
+
+   <main class="container">
+      <form id="contact">
+          <div class="message-container"></div>
+             <h3>SEND ME AN EMAIL</h3>
+
+          <div class="col-1_contact"> 
+             <label>
+                Your name:
+                <input name="Name:" id="name" />
+             </label>
+          </div>
+
+          <div>
+             <label>
+                Your email:
+                <input name="Email:" id="email" />
+             </label>
+          </div>
+
+          <div class="col-2_contact"> 
+             <label>
+                Your message:
+                <textarea name="Message:" id="message">Here you can write a message to me...</textarea>
+             </label>
+          </div>
+
+          <div>
+              <button type="submit" class="button">Send email</button>
+          </div>
+      </form>
+  </main>
+
+         <footer>
+            <div class="_footer">
+               <section class="footer">
+                  Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2021 Silje Heldal Monsen
+                  <p><a href="#top" title="back to the top">BACK TO TOP</a></p>
+
+                  <img src="images/facebook.png"
+                       alt="Facebook icon"
+                       class="facebook" />
+
+                  <img src="images/linked.png"
+                       alt="LinkedIn icon"
+                       class="linkedin" />
+
+               </section>
+            </div>
+         </footer>
+
+         <!--[if It IE 9]>
+         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+         <![endif]-->
+     <script src="javascript/mobile-menu.js"></script>
+ </body>                   
+</html>

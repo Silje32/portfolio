@@ -1,0 +1,400 @@
+/*Color Palette
+01. #B76E79 -- rose gold -- action buttons and links.
+02. #B78E6E -- brown -- menu bar.
+03. #78B76E -- green -- headings.
+04. #FFFFFF -- white
+*/
+
+
+@font-face {
+  font-family: 'haboronormregular';
+  src: url('haboronormregular-webfont.woff2') format('woff2'),
+       url('haboronormregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+/* Global styles
+-------------------*/
+header, section, footer ,nav {
+  display: block;
+}
+
+
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  background: white;
+}
+
+
+/* Heading
+------------------*/
+h1, h2, h3, label  {
+  font-family: 'Haboro', cursive, 'arial', serif;
+}
+
+
+h1 {
+  color: #B78E6E; 
+  font-size: 40px;
+}
+
+
+h2 {
+  color: #78B76E;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+h3 {
+  color: #B78E6E; 
+  font-size: 25px;
+  text-align: center;
+}
+
+
+p {
+   color: #B78E6E; 
+   font-size: 16px;
+   font-family: 'Haboro', 'arial', serif;
+}
+
+
+.p-1 {
+  color: #B78E6E; 
+  font-family: 'Haboro', 'arial', serif;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.p-1 a {
+  color: #B76E79; 
+  text-decoration: none;
+}
+
+
+.p-2 {
+  color: #B78E6E; 
+  font-family: 'Haboro', 'arial', serif;
+  font-weight: normal;
+  font-size: 25px;
+  position: relative;
+  top: 40px;
+  left: 0px;
+}
+
+
+.sale, .about {
+  color: white;
+  font-size: 18px;
+  max-width: 500px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+label {
+  color: #B78E6E; 
+}
+
+
+.container_1 {
+  display: flex;
+  max-width: 100%;
+}
+
+
+.container_1_products {
+  display: flex;
+  max-width: 100%;
+}
+
+
+.col-1_ {
+  flex: 1;
+  margin-top: 20px;
+  padding: 30px;
+  height: 500px; 
+  max-width: 100%; 
+  margin-left: 30px;
+}
+
+
+.col-2_  {
+  flex: 2;
+  margin-top: 20px;
+  padding: 30px;
+  height: 500px;                                                                                                                           
+}
+
+
+.col-3_  {
+  background: white;
+  flex: 1;
+  height: 500px;
+  margin-top: 20px;
+  margin-left: 90px;
+  padding: 25px;
+}
+
+
+.col-1_products, .col-2_products, .col-3_products  {
+  background: white;
+  flex: 1;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 25px;
+}
+
+
+.col-1_products, .col-2_products  {
+  height: 600px;
+}
+
+
+.col-3_products {
+  height: 700px;
+}
+
+
+.container_2 {
+  display: flex;
+  max-width: 100%;
+}
+
+
+/* Header and Footer
+-------------------*/
+header, ._footer {
+  background: #B78E6E;
+  height: 90px;
+}
+
+._footer {
+  display: flex;
+  margin-top: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Haboro', serif;
+  font-size: 20px;
+  position: relative;
+  bottom: -15px;
+  left: 575px;
+}
+
+footer a:link{
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+footer a:hover {
+  color: #B76E79;
+}
+
+
+
+/*  Nav -bar
+-------------*/
+nav li {
+  display: inline;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Haboro', 'arial', serif;
+  float: left;
+  padding: 12px;
+  margin-left: 12%;
+}
+
+
+nav ul li a:link {
+  color: white;
+}
+
+
+nav ul li a:visited {
+  color: white;
+}
+
+
+nav ul li a:hover {
+  color: #B76E79;
+}
+
+
+nav ul li a:active {
+  background: white;
+  color: #B76E79;
+}
+
+
+.menu, .nav-menu {
+  display: none;
+}
+
+
+
+/* Action buttons.
+---------------------- */
+.action-button  {
+  font-family: 'Haboro', arial, serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #B76E79;
+  text-align: center;
+  color: white;
+  max-width: 100%;                                                                                                                                                            
+  text-decoration: none;
+}
+
+
+.action-button  {
+  position: relative;
+  top: 200px;
+  left: 500px;
+  padding: 20px;
+  max-width: 100%;                                                                
+}
+
+
+/*  Images
+------------*/
+
+.home  {
+  width: 50%;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  left: 340px;
+  border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
+}
+
+
+.life {
+  width: 45%;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+
+
+.husband  {
+  width: 45%;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+  left: 125px;
+}
+
+
+.about {
+  width: 20%;
+  padding: 5%;
+  float: left;
+}
+
+.skills {
+  width: 100%;
+}
+
+
+figcaption {
+  color: black;
+}
+
+
+.facebook {
+  width: 8%;
+  padding: 10px;
+  position: relative;
+  bottom: 70px;
+  left: 1000px;
+}
+
+
+.linkedin  {
+  width: 9%;
+  padding: 10px;
+  position: relative;
+  bottom: 70px;
+  left: 1000px;
+}
+
+
+/* Form styles
+---------------*/
+input {
+  border: 2px solid #B76E79;
+  width: 400px;
+  height: 30px;
+}
+
+
+textarea {
+  width: 420px;
+  height: 180px;
+  border: 2px solid #B76E79;
+}
+
+
+label {
+  font-size: 20px;
+}
+
+
+.col-1_contact  {
+ margin-left: 20px;
+ flex: 1;
+}
+
+.button {
+  background-color: #B76E79;
+  color: white;
+  width: 10%;
+  padding: 10px;
+  font-family: 'Haboro', arial, serif;
+}
+
+
+/* Media Queries
+-------------------*/
+
+/* mobile styles */
+@media only screen and (max-width: 480px) {
+
+}
+}
+
+
+/*tablet styles*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {  
+
+}
+}
+
+
+/*desktop styles*/
+@media only screen and (min-width:769px) {
+
+
+.menu, .nav-menu  {
+  display: none;
+}
+}
+
+
