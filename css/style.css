@@ -50,6 +50,19 @@ h2 {
   text-align: center;
 }
 
+.skill {
+  color: #78B76E;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+}
+
+.me {
+  color: #78B76E;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
 
 h3 {
   color: #B78E6E; 
@@ -64,7 +77,6 @@ p {
    font-family: 'Haboro', 'arial', serif;
 }
 
-
 .p-1 {
   color: #B78E6E; 
   font-family: 'Haboro', 'arial', serif;
@@ -77,6 +89,10 @@ p {
   text-decoration: none;
 }
 
+.p-1_about {
+  text-align: center;
+  font-size: 20px;
+}
 
 .p-2 {
   color: #B78E6E; 
@@ -88,18 +104,24 @@ p {
   left: 0px;
 }
 
-
 .container_1 {
   display: flex;
   max-width: 100%;
 }
-
 
 .container_1_about {
   display: flex;
   max-width: 100%;
 }
 
+.container_2_about {
+  display: flex;
+  max-width: 100%;
+}
+
+.container_3_about {
+  max-width: 100%;
+}
 
 .col-1_ {
   flex: 1;
@@ -110,14 +132,12 @@ p {
   margin-left: 30px;
 }
 
-
 .col-2_  {
   flex: 2;
   margin-top: 20px;
   padding: 30px;
   height: 500px;                                                                                                                           
 }
-
 
 .col-3_  {
   background: white;
@@ -128,26 +148,25 @@ p {
   padding: 25px;
 }
 
-
 .col-1_about  {
   flex: 1;
+  max-width: 100%;
+  height: 750px;
 }
-
 
 .col-2_about  {
   flex: 2;
+  max-width: 100%;
+  height: 460px;
 }
-
 
 .col-1_products, .col-2_products  {
   height: 600px;
 }
 
-
 .col-3_products {
   height: 700px;
 }
-
 
 .container_2 {
   display: flex;
@@ -270,40 +289,74 @@ nav ul li a:active {
   border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
 }
 
-
 .life {
-  width: 45%;
+  width: 15%;
   padding: 5px;
-  position: relative;
-  top: 20px;
-  left: 15px;
+  position: absolute;
+  top: 995px;
+  left: 100px;
 }
 
+._1 {
+  position: absolute;
+  top: 1250px;
+  left: 110px;
+}
+
+.col-2_about img a:hover {
+  width: 40%;
+}
 
 .husband  {
-  width: 45%;
+  width: 14%;
   padding: 5px;
-  position: relative;
-  top: 20px;
-  left: 125px;
+  position: absolute;
+  top: 1000px;
+  left: 400px;
+}
+
+._2 {
+  position: absolute;
+  top: 1250px;
+  left: 410px;
+}
+
+.imagine {
+  width: 13%;
+  padding: 5%;
+  position: absolute;
+  top: 940px;
+  left: 640px;
 }
 
 
-.about {
-  width: 20%;
+._3 {
+  position: absolute;
+  top: 1250px;
+  left: 710px;
+}
+
+.yoda {
+  width: 13%;
   padding: 5%;
-  float: left;
+  position: absolute;
+  top: 940px;
+  left: 920px;
+}
+
+._4 {
+  position: absolute;
+  top: 1256px;
+  left: 986px;
 }
 
 .skills {
-  width: 100%;
+  max-width: 80%;
 }
-
 
 figcaption {
   color: black;
 }
-
 
 .facebook {
   width: 8%;
@@ -312,7 +365,6 @@ figcaption {
   bottom: 70px;
   left: 1000px;
 }
-
 
 .linkedin  {
   width: 9%;
