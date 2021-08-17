@@ -43,24 +43,22 @@ h1 {
   font-size: 40px;
 }
 
+h2, .skill, .me, .work {
+  color: #78B76E;
+  text-align: center;
+} 
 
 h2 {
-  color: #78B76E;
   font-size: 25px;
-  text-align: center;
 }
 
-.skill {
-  color: #78B76E;
+.skill, .work {
   font-size: 30px;
-  text-align: center;
   padding: 15px;
 }
 
 .me {
-  color: #78B76E;
-  font-size: 30px;
-  text-align: center;
+  font-size: 25px;
   padding: 10px;
 }
 
@@ -123,6 +121,10 @@ p {
   max-width: 100%;
 }
 
+.container_1_portfolio {
+  display: flex;
+}
+
 .col-1_ {
   flex: 1;
   margin-top: 20px;
@@ -160,18 +162,17 @@ p {
   height: 460px;
 }
 
-.col-1_products, .col-2_products  {
-  height: 600px;
-}
-
-.col-3_products {
-  height: 700px;
+.col-1_portfolio  {
+  height: 1000px;
+  background: yellow;
 }
 
 .container_2 {
   display: flex;
   max-width: 100%;
 }
+
+
 
 
 /* Header and Footer
@@ -239,6 +240,7 @@ nav ul li a:visited {
 
 nav ul li a:hover {
   color: #B76E79;
+  background: white;
 }
 
 
@@ -303,8 +305,8 @@ nav ul li a:active {
   left: 110px;
 }
 
-.col-2_about img a:hover {
-  width: 40%;
+main figure img:hover {
+  width: 20%;
 }
 
 .husband  {
@@ -383,19 +385,16 @@ input {
   height: 30px;
 }
 
-
 textarea {
   width: 420px;
   height: 180px;
   border: 2px solid #B76E79;
 }
 
-
 label {
   font-size: 20px;
   color: #B78E6E; 
 }
-
 
 .col-1_contact  {
  margin-left: 20px;
