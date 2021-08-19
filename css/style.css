@@ -170,8 +170,39 @@ p {
 }
 
 .col-1_portfolio  {
-  height: 1000px;
-  background: yellow;
+  height: 200px;
+  width: 50%;
+  padding: 30px;
+  background: #78B76E;
+  margin-bottom: 10px;
+  opacity: 0,5%;
+}
+
+.col-2_portfolio  {
+  height: 200px;
+  width: 50%;
+  padding: 30px;
+  background: #78B76E;
+  margin-bottom: 10px;
+  opacity: 0,5%;
+}
+
+.col-3_portfolio  {
+  height: 200px;
+  width: 50%;
+  padding: 30px;
+  background: #78B76E;
+  margin-bottom: 10px;
+  opacity: 0,5%;
+}
+
+.col-4_portfolio  {
+  height: 200px;
+  width: 50%;
+  padding: 30px;
+  background: #78B76E;
+  margin-bottom: 10px;
+  opacity: 0,5%;
 }
 
 .container_2 {
@@ -386,6 +417,24 @@ figcaption {
   bottom: 70px;
   left: 1000px;
 }
+
+main .col-1_portfolio a:link, main .col-2_portfolio a:link, main .col-3_portfolio a:link, main .col-4_portfolio a:link  {
+  color: #B76E79;
+  text-decoration: none;
+}
+
+main .col-1_portfolio a:visited, main .col-2_portfolio a:visited, main .col-3_portfolio a:visited, main .col-4_portfolio a:visited  {
+  color: white;
+}
+
+main .col-1_portfolio a:hover, main .col-2_portfolio a:hover, main .col-3_portfolio a:hover, main .col-4_portfolio a:hover  {
+  color: #B76E79;
+}
+
+main .col-1_portfolio a:active, main .col-2_portfolio a:active, main .col-3_portfolio a:active, main .col-4_portfolio a:active  {
+  color: white;
+}
+
 
 
 /* Form styles
