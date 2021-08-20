@@ -174,13 +174,16 @@ p {
   opacity: .4;
   font-size: 26px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
   height: 200px;
   width: 50%;
   padding: 30px;
-  border: 4px solid #78B76E;
+}
+
+main .col-1_portfolio:hover, main .col-2_portfolio:hover, main .col-3_portfolio:hover, main .col-4_portfolio:hover  {
+  background: #B76E79;
 }
 
 .container_2 {
@@ -223,6 +226,8 @@ footer a:visited {
 
 footer a:hover {
   color: #B76E79;
+  background: white;
+  padding: 8px;
 }
 
 
@@ -399,6 +404,27 @@ figcaption {
 main .col-1_portfolio a:link, main .col-2_portfolio a:link, main .col-3_portfolio a:link, main .col-4_portfolio a:link  {
   color: #B76E79;
   text-decoration: none;
+}
+
+main .col-1_portfolio a:link {
+  position: relative;
+  top: 70px;
+  left: 20px;
+}
+
+main .col-2_portfolio a:link {
+  position: relative;
+  top: 70px;
+  left: 50px;
+}
+
+main .col-3_portfolio a:link {
+  position: relative;
+  top: 70px;
+  left: 5px;
+}
+
+main .col-4_portfolio a:link {
   position: relative;
   top: 70px;
   left: 10px;
@@ -409,7 +435,8 @@ main .col-1_portfolio a:visited, main .col-2_portfolio a:visited, main .col-3_po
 }
 
 main .col-1_portfolio a:hover, main .col-2_portfolio a:hover, main .col-3_portfolio a:hover, main .col-4_portfolio a:hover  {
-  color: #B76E79;
+  color: black;
+  background: #B76E79;
 }
 
 main .col-1_portfolio a:active, main .col-2_portfolio a:active, main .col-3_portfolio a:active, main .col-4_portfolio a:active  {
