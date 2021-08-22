@@ -392,7 +392,7 @@ figcaption {
   width: 8%;
   padding: 10px;
   position: relative;
-  bottom: 70px;
+  bottom: 74px;
   left: 1000px;
 }
 
@@ -400,8 +400,16 @@ figcaption {
   width: 9%;
   padding: 10px;
   position: relative;
-  bottom: 70px;
-  left: 1000px;
+  bottom: 74px;
+  left: 999px;
+  z-index: 1;
+}
+
+.white  {
+  width: 7%;
+  position: relative;
+  bottom: 85px;
+  left: 910px;
 }
 
 main .col-1_portfolio a:link, main .col-2_portfolio a:link, main .col-3_portfolio a:link, main .col-4_portfolio a:link  {
@@ -554,4 +562,6 @@ label {
 }
 }
 
-
+position: relative;
+  bottom: 70px;
+  left: 1000px;
