@@ -28,13 +28,14 @@ header, section, footer ,nav {
 body {
   margin: 0 auto;
   max-width: 100%;
-  background: white;
+  max-height: fit-content;
+  background: black;
 }
 
 
 /* Heading
 ------------------*/
-h1, h2, h3, label  {
+h1, label  {
   font-family: 'Haboro', cursive, 'arial', serif;
 }
 
@@ -42,11 +43,13 @@ h1, h2, h3, label  {
 h1 {
   color: #B78E6E; 
   font-size: 40px;
+  margin-left: 20px;
 }
 
-h2, .skill, .me, .work {
+h2, h3, .skill, .me, .work {
   color: #78B76E;
   text-align: center;
+  font-family: 'Haboro', 'arial', serif;
 } 
 
 h2 {
@@ -83,6 +86,7 @@ p {
   font-family: 'Haboro', 'arial', serif;
   font-weight: normal;
   font-size: 25px;
+  margin-left: 20px;
 }
 
 .p-1 a {
@@ -102,7 +106,7 @@ p {
   font-size: 25px;
   position: relative;
   top: 40px;
-  left: 0px;
+  left: 20px;
 }
 
 .container_1 {
@@ -284,23 +288,19 @@ nav ul li a:active {
 ---------------------- */
 .action-button  {
   font-family: 'Haboro', arial, serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   background-color: #B76E79;
-  text-align: center;
+  text-align: left;
   color: white;
-  max-width: 100%;                                                                                                                                                            
+  width: 80%;                                                                                                                                                            
   text-decoration: none;
-}
-
-
-.action-button  {
   position: relative;
-  top: 200px;
-  left: 500px;
-  padding: 20px;
-  max-width: 100%;                                                                
+  top: 180px;
+  left: 390px;
+  padding: 20px;                                                           
 }
+
 
 
 /*  Images
@@ -313,6 +313,15 @@ nav ul li a:active {
   top: 20px;
   left: 340px;
   border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
+}
+
+.line {
+  width: 5%;
+  padding: 5px;
+  position: absolute;
+  top: 545px;
+  left: 660px;
+  z-index: 1;
 }
 
 .life {
@@ -358,7 +367,6 @@ width: 23%;
   top: 970px;
   left: 640px;
 }
-
 
 ._3 {
   position: absolute;
@@ -542,6 +550,157 @@ label {
 /* mobile styles */
 @media only screen and (max-width: 480px) {
 
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 1000px;
+    background: white;
+}
+
+.container_1, .col-1_, .col-2_, .container_1_about, .container_2_about, .container_3_about, .col-1_about, .col-2_about,
+.col-3_about    {
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+.p-1 {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.p-2 {
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+  left: 5px;
+}
+
+.col-1_ {
+  order: 1;
+  margin-top: 10px;
+}
+
+.col-2_  {
+  order: 2;
+  margin-top: 10px;                                                                                                                         
+}
+
+.action-button  {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  width: 80%;                                                                                                                                                            
+  position: relative;
+  top: 550px;
+  left: 50px;
+  padding: 20px;                                                           
+}
+
+.line, nav li {
+  display: none;
+}
+
+.home  {
+  width: 80%;
+  padding: 5px;
+  position: relative;
+  top: 2px;
+  left: 30px;
+  border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
+}
+
+.container_1_about {
+  order: 1;
+}
+
+.container_2_about {
+  order: 3;
+}
+
+.container_3_about {
+  order: 2;
+}
+
+.col-1_about  {
+  order: 1;
+}
+
+skills {
+  max-width: 100%;
+}
+
+.col-2_about  {
+  order: 3;
+  height: 300px;
+}
+
+.col-3_about  {
+  order: 2;
+}
+
+.life, .husband, .imagine, .yoda  {
+  width: 70%;
+  padding: 5px;
+}
+
+.life {
+  position: absolute;
+  top: 550px;
+  left: 55px;
+}
+
+._1 {
+  position: absolute;
+  top: 910px;
+  left: 65px;
+}
+
+.husband  {
+  position: absolute;
+  top: 960px;
+  left: 55px;
+}
+
+._2 {
+  position: absolute;
+  top: 1352px;
+  left: 65px;
+}
+
+.imagine {
+  position: absolute;
+  top: 1400px;
+  left: 55px;
+}
+
+._3 {
+  position: absolute;
+  top: 1830px;
+  left: 65px;
+}
+
+.yoda {
+  position: absolute;
+  top: 1880px;
+  left: 55px;
+}
+
+._4 {
+  position: absolute;
+  top: 2325px;
+  left: 65px;
+}
+
+.menu, .nav-menu  {
+  display: block;
+  width: 20%;
+  position: relative;
+  top: 15px;
+  left: 315px;
 }
 }
 
@@ -556,12 +715,172 @@ label {
 /*desktop styles*/
 @media only screen and (min-width:769px) {
 
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: fit-content;
+    background: black;
+}
+
+nav li {
+  display: inline;
+}
+
+.container_1 {
+    display: flex;
+    max-width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.p-1 {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.p-2 {
+  font-size: 25px;
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+.col-1_ {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.col-2_  {
+  flex: 2;
+  margin-top: 20px;                                                                                                                           
+}
+
+.home  {
+  width: 50%;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  left: 340px;
+  border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
+}
+
+.action-button  {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  width: 80%;                                                                                                                                                            
+  position: relative;
+  top: 180px;
+  left: 390px;
+  padding: 20px;                                                           
+}
+
+.line {
+  width: 5%;
+  padding: 5px;
+  position: absolute;
+  top: 545px;
+  left: 660px;
+  z-index: 1;
+}
+
+.container_1_about {
+  display: flex;
+  max-width: 100%;
+}
+
+.container_2_about {
+  display: flex;
+  max-width: 100%;
+}
+
+.container_3_about {
+  max-width: 100%;
+}
+
+.col-1_about  {
+  flex: 1;
+  max-width: 100%;
+  height: 750px;
+}
+
+.skills {
+  max-width: 80%;
+}
+
+.col-2_about  {
+  flex: 2;
+  max-width: 100%;
+  height: 300px;
+}
+
+.col-3_about  {
+  flex: 3;
+  max-width: 100%;
+  height: 310px;
+}
+
+.life {
+  width: 15%;
+  padding: 5px;
+  position: absolute;
+  top: 1025px;
+  left: 100px;
+}
+
+._1 {
+  position: absolute;
+  top: 1000px;
+  left: 110px;
+}
+
+.husband  {
+  width: 14%;
+  padding: 5px;
+  position: absolute;
+  top: 1025px;
+  left: 400px;
+}
+
+._2 {
+  position: absolute;
+  top: 1000px;
+  left: 410px;
+}
+
+.imagine {
+  width: 13%;
+  padding: 5%;
+  position: absolute;
+  top: 970px;
+  left: 640px;
+}
+
+._3 {
+  position: absolute;
+  top: 1000px;
+  left: 710px;
+}
+
+.yoda {
+  width: 13%;
+  padding: 5%;
+  position: absolute;
+  top: 970px;
+  left: 920px;
+}
+
+._4 {
+  position: absolute;
+  top: 1000px;
+  left: 986px;
+}
 
 .menu, .nav-menu  {
   display: none;
 }
 }
 
-position: relative;
-  bottom: 70px;
-  left: 1000px;
