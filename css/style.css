@@ -28,7 +28,7 @@ header, section, footer ,nav {
 body {
   margin: 0 auto;
   max-width: 100%;
-  max-height: fit-content;
+  min-height: 100vh;
   background: black;
 }
 
@@ -130,6 +130,7 @@ p {
 
 .container_1_portfolio {
   display: flex;
+  flex-direction: row;
 }
 
 .col-1_ {
@@ -205,6 +206,7 @@ main .col-1_portfolio:hover, main .col-2_portfolio:hover, main .col-3_portfolio:
 header, ._footer {
   background: #B78E6E;
   height: 90px;
+  max-width: 100%;
 }
 
 ._footer {
@@ -234,6 +236,30 @@ footer a:hover {
   color: #B76E79;
   background: white;
   padding: 8px;
+}
+
+.facebook {
+  width: 8%;
+  padding: 10px;
+  position: relative;
+  bottom: 74px;
+  left: 1000px;
+}
+
+.linkedin  {
+  width: 9%;
+  padding: 10px;
+  position: relative;
+  bottom: 74px;
+  left: 999px;
+  z-index: 1;
+}
+
+.white  {
+  width: 7%;
+  position: relative;
+  bottom: 85px;
+  left: 910px;
 }
 
 
@@ -396,30 +422,6 @@ figcaption {
   color: black;
 }
 
-.facebook {
-  width: 8%;
-  padding: 10px;
-  position: relative;
-  bottom: 74px;
-  left: 1000px;
-}
-
-.linkedin  {
-  width: 9%;
-  padding: 10px;
-  position: relative;
-  bottom: 74px;
-  left: 999px;
-  z-index: 1;
-}
-
-.white  {
-  width: 7%;
-  position: relative;
-  bottom: 85px;
-  left: 910px;
-}
-
 main .col-1_portfolio a:link, main .col-2_portfolio a:link, main .col-3_portfolio a:link, main .col-4_portfolio a:link  {
   color: #B76E79;
   text-decoration: none;
@@ -551,14 +553,10 @@ label {
 @media only screen and (max-width: 480px) {
 
 body {
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: 1000px;
     background: white;
 }
 
-.container_1, .col-1_, .col-2_, .container_1_about, .container_2_about, .container_3_about, .col-1_about, .col-2_about,
-.col-3_about    {
+.container_1, .container_1_about, .container_2_about, .container_3_about, .container_1_portfolio   {
   flex-direction: column;
 }
 
@@ -629,7 +627,7 @@ h1 {
   order: 1;
 }
 
-skills {
+.skills {
   max-width: 100%;
 }
 
@@ -695,12 +693,58 @@ skills {
   left: 65px;
 }
 
+.container_1_portfolio {
+  display: flex;
+}
+
+.col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  height: 200px;
+  width: 50%;
+  padding: 30px;
+}
+
+header, ._footer {
+  height: 60px;
+}
+
+._footer {
+}
+
+.facebook {
+  width: 10%;
+  padding: 10px;
+  position: relative;
+  bottom: 1000px;
+  left: 80px;
+}
+
+.linkedin  {
+  width: 10%;
+  padding: 10px;
+  position: relative;
+  bottom: 1000px;
+  left: 80px;
+  z-index: 1;
+}
+
+.white  {
+  width: 8%;
+  position: relative;
+  bottom: 1000px;
+  left: 80px;
+}
+
 .menu, .nav-menu  {
   display: block;
-  width: 20%;
+  width: 15%;
   position: relative;
-  top: 15px;
-  left: 315px;
+  top: 8px;
+  left: 340px;
 }
 }
 
@@ -716,9 +760,6 @@ skills {
 @media only screen and (min-width:769px) {
 
 body {
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: fit-content;
     background: black;
 }
 
@@ -877,6 +918,53 @@ h1 {
   position: absolute;
   top: 1000px;
   left: 986px;
+}
+
+.container_1_portfolio {
+  display: flex;
+}
+
+.col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  height: 200px;
+  width: 50%;
+  padding: 30px;
+}
+
+header, ._footer {
+  height: 90px;
+}
+
+._footer {
+  display: flex;
+}
+
+.facebook {
+  width: 8%;
+  padding: 10px;
+  position: relative;
+  bottom: 74px;
+  left: 1000px;
+}
+
+.linkedin  {
+  width: 9%;
+  padding: 10px;
+  position: relative;
+  bottom: 74px;
+  left: 999px;
+  z-index: 1;
+}
+
+.white  {
+  width: 7%;
+  position: relative;
+  bottom: 85px;
+  left: 910px;
 }
 
 .menu, .nav-menu  {
