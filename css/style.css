@@ -29,7 +29,7 @@ body {
   margin: 0 auto;
   max-width: 100%;
   min-height: 100vh;
-  background: black;
+  background: white;
 }
 
 
@@ -119,18 +119,23 @@ p {
   max-width: 100%;
 }
 
-.container_2_about {
+.container_1_portfolio, .container_2_about  {
   display: flex;
-  max-width: 100%;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .container_3_about {
   max-width: 100%;
 }
-
-.container_1_portfolio {
-  display: flex;
-  flex-direction: row;
+  
+.col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
+  background: #78B76E;
+  opacity: .4;
+  font-size: 26px;
+  font-weight: bold;
+  height: 200px;
+  margin-left: 10px;
 }
 
 .col-1_ {
@@ -181,9 +186,7 @@ p {
   opacity: .4;
   font-size: 26px;
   font-weight: bold;
-  margin-bottom: 25px;
-  margin-right: 25px;
-  margin-left: 25px;
+  margin: auto;
   height: 200px;
   width: 50%;
   padding: 30px;
@@ -310,7 +313,7 @@ nav ul li a:active {
 
 
 
-/* Action buttons.
+/* Action button.
 ---------------------- */
 .action-button  {
   font-family: 'Haboro', arial, serif;
@@ -323,7 +326,7 @@ nav ul li a:active {
   text-decoration: none;
   position: relative;
   top: 180px;
-  left: 390px;
+  left: 5px;
   padding: 20px;                                                           
 }
 
@@ -339,15 +342,6 @@ nav ul li a:active {
   top: 20px;
   left: 340px;
   border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
-}
-
-.line {
-  width: 5%;
-  padding: 5px;
-  position: absolute;
-  top: 545px;
-  left: 660px;
-  z-index: 1;
 }
 
 .life {
@@ -553,10 +547,11 @@ label {
 @media only screen and (max-width: 480px) {
 
 body {
-    background: white;
+  background: white;
 }
 
-.container_1, .container_1_about, .container_2_about, .container_3_about, .container_1_portfolio   {
+.container_1, .container_1_about, .container_2_about, .container_3_about, .container_1_portfolio, .container, 
+#contact  {
   flex-direction: column;
 }
 
@@ -594,11 +589,11 @@ h1 {
   width: 80%;                                                                                                                                                            
   position: relative;
   top: 550px;
-  left: 50px;
+  left: -60px;
   padding: 20px;                                                           
 }
 
-.line, nav li {
+nav li {
   display: none;
 }
 
@@ -693,50 +688,87 @@ h1 {
   left: 65px;
 }
 
-.container_1_portfolio {
-  display: flex;
+.container_2_about  {
+  height: 800px;
+}
+
+.container_1_portfolio, .container_2_about  {
+  justify-content: space-between;
+  margin: auto;
 }
 
 .col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
   font-size: 26px;
   font-weight: bold;
-  margin-bottom: 25px;
-  margin-right: 25px;
-  margin-left: 25px;
   height: 200px;
-  width: 50%;
-  padding: 30px;
+}
+
+.col-1_contact  {
+  margin-left: 5px;
+  order: 1;
+}
+
+.col-2_contact  {
+  order: 2;
 }
 
 header, ._footer {
   height: 60px;
+  margin: auto;
 }
 
 ._footer {
 }
 
 .facebook {
-  width: 10%;
+  width: 20%;
   padding: 10px;
   position: relative;
-  bottom: 1000px;
+  bottom: 2000px;
   left: 80px;
 }
 
 .linkedin  {
-  width: 10%;
+  width: 20%;
   padding: 10px;
   position: relative;
-  bottom: 1000px;
+  bottom: 2000px;
   left: 80px;
   z-index: 1;
 }
 
 .white  {
-  width: 8%;
+  width: 10%;
   position: relative;
-  bottom: 1000px;
+  bottom: 2000px;
   left: 80px;
+}
+
+#contact  {
+  max-width: 100%;
+  height: 600px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+}
+
+textarea {
+  width: 300px;
+  height: 125px;
+  border: 1px solid #B76E79;
+  position: absolute;
+  top: 100px;
+  left: -600px;
+}
+
+.button {
+  width: 35%;
+  padding: 10px;
+  position: absolute;
+  top: 400px;
+  left: 120px;
 }
 
 .menu, .nav-menu  {
@@ -815,17 +847,8 @@ h1 {
   width: 80%;                                                                                                                                                            
   position: relative;
   top: 180px;
-  left: 390px;
+  left: 5px;
   padding: 20px;                                                           
-}
-
-.line {
-  width: 5%;
-  padding: 5px;
-  position: absolute;
-  top: 545px;
-  left: 660px;
-  z-index: 1;
 }
 
 .container_1_about {
@@ -920,19 +943,29 @@ h1 {
   left: 986px;
 }
 
-.container_1_portfolio {
+.container_1_portfolio, .container_2_about  {
   display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
   font-size: 26px;
   font-weight: bold;
-  margin-bottom: 25px;
-  margin-right: 25px;
-  margin-left: 25px;
   height: 200px;
-  width: 50%;
-  padding: 30px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.col-1_contact  {
+  margin-left: 20px;
+  flex: 1;
+ }
+
+.col-2_contact  {
+  flex: 2;
 }
 
 header, ._footer {
@@ -965,6 +998,34 @@ header, ._footer {
   position: relative;
   bottom: 85px;
   left: 910px;
+}
+
+#contact  {
+  display: flex;
+  max-width: 100%;
+  height: 200px;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+}
+
+textarea {
+  width: 430px;
+  height: 125px;
+  border: 1px solid #B76E79;
+  position: absolute;
+  top: 35px;
+  left: 5px;
+}
+
+.button {
+  width: 10%;
+  padding: 10px;
+  position: absolute;
+  top: 400px;
+  left: 965px;
 }
 
 .menu, .nav-menu  {
