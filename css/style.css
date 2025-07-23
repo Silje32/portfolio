@@ -602,13 +602,12 @@ label {
   }
 
   .action-button {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
-    text-align: left;
-    width: 90%;
+    width: 50%;
     position: relative;
     top: 500px;
-    left: -100px;
+    left: -90px;
   }
 
   nav li {
