@@ -6,24 +6,22 @@
 04. #FFFFFF -- white
 */
 
-
 @font-face {
-  font-family: 'haboronormregular';
-  src: url('haboronormregular-webfont.woff2') format('woff2'),
-       url('haboronormregular-webfont.woff') format('woff');
+  font-family: "haboronormregular";
+  src: url("haboronormregular-webfont.woff2") format("woff2"),
+    url("haboronormregular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-
 }
-
-
 
 /* Global styles
 -------------------*/
-header, section, footer ,nav {
+header,
+section,
+footer,
+nav {
   display: block;
 }
-
 
 body {
   margin: 0 auto;
@@ -32,31 +30,34 @@ body {
   background: white;
 }
 
-
 /* Heading
 ------------------*/
-h1, label  {
-  font-family: 'Haboro', cursive, 'arial', serif;
+h1,
+label {
+  font-family: "Haboro", cursive, "arial", serif;
 }
 
-
 h1 {
-  color: #B78E6E; 
+  color: #b78e6e;
   font-size: 40px;
   margin-left: 20px;
 }
 
-h2, .skill, .me, .work {
-  color: #78B76E;
+h2,
+.skill,
+.me,
+.work {
+  color: #78b76e;
   text-align: center;
-  font-family: 'Haboro', 'arial', serif;
-} 
+  font-family: "Haboro", "arial", serif;
+}
 
 h2 {
   font-size: 25px;
 }
 
-.skill, .work {
+.skill,
+.work {
   font-size: 30px;
   padding: 15px;
 }
@@ -67,33 +68,33 @@ h2 {
 }
 
 h3 {
-  color: #B78E6E; 
+  color: #b78e6e;
   font-size: 25px;
   text-align: left;
   padding: 30px;
   margin-left: 80px;
 }
 
-body .main-heading  {
+body .main-heading {
   display: none;
 }
 
 p {
-   color: #B78E6E; 
-   font-size: 16px;
-   font-family: 'Haboro', 'arial', serif;
+  color: #b78e6e;
+  font-size: 16px;
+  font-family: "Haboro", "arial", serif;
 }
 
 .p-1 {
-  color: #B78E6E; 
-  font-family: 'Haboro', 'arial', serif;
+  color: #b78e6e;
+  font-family: "Haboro", "arial", serif;
   font-weight: normal;
   font-size: 25px;
   margin-left: 20px;
 }
 
 .p-1 a {
-  color: #B76E79; 
+  color: #b76e79;
   text-decoration: none;
 }
 
@@ -103,8 +104,8 @@ p {
 }
 
 .p-2 {
-  color: #B78E6E; 
-  font-family: 'Haboro', 'arial', serif;
+  color: #b78e6e;
+  font-family: "Haboro", "arial", serif;
   font-weight: normal;
   font-size: 25px;
   position: relative;
@@ -122,7 +123,8 @@ p {
   max-width: 100%;
 }
 
-.container_1_portfolio, .container_2_about  {
+.container_1_portfolio,
+.container_2_about {
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -131,10 +133,13 @@ p {
 .container_3_about {
   max-width: 100%;
 }
-  
-.col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
-  background: #78B76E;
-  opacity: .4;
+
+.col-1_portfolio,
+.col-2_portfolio,
+.col-3_portfolio,
+.col-4_portfolio {
+  background: #78b76e;
+  opacity: 0.4;
   font-size: 26px;
   font-weight: bold;
   height: 200px;
@@ -145,19 +150,19 @@ p {
   flex: 1;
   margin-top: 20px;
   padding: 30px;
-  height: 500px; 
-  max-width: 100%; 
+  height: 500px;
+  max-width: 100%;
   margin-left: 30px;
 }
 
-.col-2_  {
+.col-2_ {
   flex: 2;
   margin-top: 20px;
   padding: 30px;
-  height: 500px;                                                                                                                           
+  height: 500px;
 }
 
-.col-3_  {
+.col-3_ {
   background: white;
   flex: 1;
   height: 500px;
@@ -166,27 +171,30 @@ p {
   padding: 25px;
 }
 
-.col-1_about  {
+.col-1_about {
   flex: 1;
   max-width: 100%;
   height: 750px;
 }
 
-.col-2_about  {
+.col-2_about {
   flex: 2;
   max-width: 100%;
   height: 300px;
 }
 
-.col-3_about  {
+.col-3_about {
   flex: 3;
   max-width: 100%;
   height: 310px;
 }
 
-.col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
-  background: #78B76E;
-  opacity: .4;
+.col-1_portfolio,
+.col-2_portfolio,
+.col-3_portfolio,
+.col-4_portfolio {
+  background: #78b76e;
+  opacity: 0.4;
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 25px;
@@ -197,8 +205,11 @@ p {
   padding: 30px;
 }
 
-main .col-1_portfolio:hover, main .col-2_portfolio:hover, main .col-3_portfolio:hover, main .col-4_portfolio:hover  {
-  background: #B76E79;
+main .col-1_portfolio:hover,
+main .col-2_portfolio:hover,
+main .col-3_portfolio:hover,
+main .col-4_portfolio:hover {
+  background: #b76e79;
 }
 
 .container_2 {
@@ -206,13 +217,11 @@ main .col-1_portfolio:hover, main .col-2_portfolio:hover, main .col-3_portfolio:
   max-width: 100%;
 }
 
-
-
-
 /* Header and Footer
 -------------------*/
-header, ._footer {
-  background: #B78E6E;
+header,
+._footer {
+  background: #b78e6e;
   height: 90px;
   max-width: 100%;
 }
@@ -224,14 +233,14 @@ header, ._footer {
 footer a {
   color: white;
   text-decoration: none;
-  font-family: 'Haboro', serif;
+  font-family: "Haboro", serif;
   font-size: 20px;
   position: relative;
   bottom: -15px;
   left: 575px;
 }
 
-footer a:link{
+footer a:link {
   color: white;
 }
 
@@ -240,7 +249,7 @@ footer a:visited {
 }
 
 footer a:hover {
-  color: #B76E79;
+  color: #b76e79;
   background: white;
   padding: 8px;
 }
@@ -253,7 +262,7 @@ footer a:hover {
   left: 1000px;
 }
 
-.linkedin  {
+.linkedin {
   width: 9%;
   padding: 10px;
   position: relative;
@@ -262,14 +271,12 @@ footer a:hover {
   z-index: 1;
 }
 
-.white  {
+.white {
   width: 7%;
   position: relative;
   bottom: 85px;
   left: 910px;
 }
-
-
 
 /*  Nav -bar
 -------------*/
@@ -277,11 +284,10 @@ nav li {
   display: inline;
 }
 
-
 nav ul li a {
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Haboro', 'arial', serif;
+  font-family: "Haboro", "arial", serif;
   float: left;
   padding: 12px;
   margin-left: 12%;
@@ -292,56 +298,53 @@ nav ul li a:link {
   color: white;
 }
 
-
 nav ul li a:visited {
   color: white;
 }
 
 nav ul li a:hover {
-  color: #B76E79;
+  color: #b76e79;
   background: white;
 }
 
 nav ul li a:active {
   background: white;
-  color: #B76E79;
+  color: #b76e79;
 }
 
-.menu, .nav-menu, .container_menu, .mobile-nav li a {
+.menu,
+.nav-menu,
+.container_menu,
+.mobile-nav li a {
   display: none;
 }
 
-
-
 /* Action button.
 ---------------------- */
-.action-button  {
-  font-family: 'Haboro', arial, serif;
+.action-button {
+  font-family: "Haboro", arial, serif;
   font-size: 25px;
   font-weight: bold;
-  background-color: #B76E79;
-  text-align: left;
+  background-color: #b76e79;
   color: white;
-  width: 80%;                                                                                                                                                            
+  width: 80%;
   text-decoration: none;
   position: relative;
-  top: 180px;
-  left: 5px;
-  padding: 20px;                                                           
+  top: 130px;
+  left: 7px;
+  padding: 20px;
 }
-
-
 
 /*  Images
 ------------*/
 
-.home  {
+.home {
   width: 50%;
   padding: 10px;
   position: relative;
   top: 20px;
   left: 340px;
-  border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
+  border-radius: 10%;
 }
 
 .life {
@@ -358,15 +361,17 @@ nav ul li a:active {
   left: 110px;
 }
 
-main figure .life:hover, .imagine:hover {
+main figure .life:hover,
+.imagine:hover {
   width: 24%;
 }
 
-main figure .husband:hover, .yoda:hover {
-width: 23%;
+main figure .husband:hover,
+.yoda:hover {
+  width: 23%;
 }
 
-.husband  {
+.husband {
   width: 14%;
   padding: 5px;
   position: absolute;
@@ -416,8 +421,11 @@ figcaption {
   color: black;
 }
 
-main .col-1_portfolio a:link, main .col-2_portfolio a:link, main .col-3_portfolio a:link, main .col-4_portfolio a:link  {
-  color: #B76E79;
+main .col-1_portfolio a:link,
+main .col-2_portfolio a:link,
+main .col-3_portfolio a:link,
+main .col-4_portfolio a:link {
+  color: #b76e79;
   text-decoration: none;
 }
 
@@ -445,25 +453,32 @@ main .col-4_portfolio a:link {
   left: 10px;
 }
 
-main .col-1_portfolio a:visited, main .col-2_portfolio a:visited, main .col-3_portfolio a:visited, main .col-4_portfolio a:visited  {
+main .col-1_portfolio a:visited,
+main .col-2_portfolio a:visited,
+main .col-3_portfolio a:visited,
+main .col-4_portfolio a:visited {
   color: white;
 }
 
-main .col-1_portfolio a:hover, main .col-2_portfolio a:hover, main .col-3_portfolio a:hover, main .col-4_portfolio a:hover  {
+main .col-1_portfolio a:hover,
+main .col-2_portfolio a:hover,
+main .col-3_portfolio a:hover,
+main .col-4_portfolio a:hover {
   color: black;
-  background: #B76E79;
+  background: #b76e79;
 }
 
-main .col-1_portfolio a:active, main .col-2_portfolio a:active, main .col-3_portfolio a:active, main .col-4_portfolio a:active  {
-  color: #B76E79;
+main .col-1_portfolio a:active,
+main .col-2_portfolio a:active,
+main .col-3_portfolio a:active,
+main .col-4_portfolio a:active {
+  color: #b76e79;
 }
-
-
 
 /* Form styles
 ---------------*/
 input {
-  border: 1px solid #B76E79;
+  border: 1px solid #b76e79;
   width: 400px;
   height: 30px;
 }
@@ -471,7 +486,7 @@ input {
 textarea {
   width: 430px;
   height: 125px;
-  border: 1px solid #B76E79;
+  border: 1px solid #b76e79;
   position: absolute;
   top: 35px;
   left: 5px;
@@ -479,10 +494,10 @@ textarea {
 
 label {
   font-size: 20px;
-  color: #B78E6E; 
+  color: #b78e6e;
 }
 
-#contact  {
+#contact {
   display: flex;
   max-width: 100%;
   height: 200px;
@@ -491,7 +506,7 @@ label {
 #name {
   position: absolute;
   top: 40px;
-  left: 5px;  
+  left: 5px;
 }
 
 #email {
@@ -500,674 +515,684 @@ label {
   left: 5px;
 }
 
-.col-1_contact  {
- margin-left: 20px;
- flex: 1;
+.col-1_contact {
+  margin-left: 20px;
+  flex: 1;
 }
 
 .col-1_contact label {
   position: absolute;
   top: 215px;
-  left: 110px;                                                                                                                                             
+  left: 110px;
 }
 
 .col-1_contact_ label {
   position: absolute;
   top: 310px;
-  left: 110px;      
+  left: 110px;
 }
- 
+
 .col-2_contact label {
   position: absolute;
   top: 220px;
   left: 650px;
 }
 
-.col-2_contact  {
+.col-2_contact {
   flex: 2;
 }
 
 .button {
-  background-color: #B76E79;
+  background-color: #b76e79;
   color: white;
   width: 10%;
   padding: 10px;
-  font-family: 'Haboro', arial, serif;
+  font-family: "Haboro", arial, serif;
   font-size: 15px;
   position: absolute;
   top: 400px;
   left: 965px;
 }
-
-
 
 /* Media Queries
 -------------------*/
 
 /* mobile styles */
 @media only screen and (max-width: 480px) {
+  body {
+    background: white;
+  }
 
-body {
-  background: white;
-}
+  .container_1,
+  .container_1_about,
+  .container_2_about,
+  .container_3_about,
+  .container_1_portfolio,
+  .container,
+  #contact,
+  .container_menu {
+    flex-direction: column;
+  }
 
-.container_1, .container_1_about, .container_2_about, .container_3_about, .container_1_portfolio, .container, 
-#contact, .container_menu  {
-  flex-direction: column;
-}
+  h1 {
+    font-size: 40px;
+    margin-left: 5px;
+  }
 
-h1 {
-  font-size: 40px;
-  margin-left: 5px;
-}
-
-.p-1 {
+  .p-1 {
     font-size: 25px;
     margin-left: 5px;
-}
+  }
 
-.p-2 {
-  font-size: 20px;
-  position: relative;
-  top: 40px;
-  left: 5px;
-}
+  .p-2 {
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    left: 5px;
+  }
 
-.col-1_ {
-  order: 1;
-  margin-top: 10px;
-}
+  .col-1_ {
+    order: 1;
+    margin-top: 10px;
+  }
 
-.col-2_  {
-  order: 2;
-  margin-top: 10px;                                                                                                                         
-}
+  .col-2_ {
+    order: 2;
+    margin-top: 10px;
+  }
 
-.action-button  {
-  font-size: 25px;
-  font-weight: bold;
-  text-align: left;
-  width: 90%;                                                                                                                                                            
-  position: relative;
-  top: 550px;
-  left: -140px;                                                        
-}
+  .action-button {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    width: 90%;
+    position: relative;
+    top: 500px;
+    left: -100px;
+  }
 
-nav li {
-  display: none;
-}
+  nav li {
+    display: none;
+  }
 
-.home  {
-  width: 80%;
-  padding: 5px;
-  position: relative;
-  top: 2px;
-  left: 30px;
-  border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
-}
+  .home {
+    width: 80%;
+    padding: 5px;
+    position: relative;
+    top: 2px;
+    left: 30px;
+    border-radius: 10%;
+  }
 
-.container_1_about {
-  order: 1;
-}
+  .container_1_about {
+    order: 1;
+  }
 
-.container_2_about {
-  order: 3;
-}
+  .container_2_about {
+    order: 3;
+  }
 
-.container_3_about {
-  order: 2;
-}
+  .container_3_about {
+    order: 2;
+  }
 
-.col-1_about  {
-  order: 1;
-}
+  .col-1_about {
+    order: 1;
+  }
 
-.skills {
-  max-width: 100%;
-}
+  .skills {
+    max-width: 100%;
+  }
 
-.col-2_about  {
-  order: 3;
-  height: 300px;
-}
+  .col-2_about {
+    order: 3;
+    height: 300px;
+  }
 
-.col-3_about  {
-  order: 2;
-}
+  .col-3_about {
+    order: 2;
+  }
 
-.life, .husband, .imagine, .yoda  {
-  width: 70%;
-  padding: 5px;
-}
+  .life,
+  .husband,
+  .imagine,
+  .yoda {
+    width: 70%;
+    padding: 5px;
+  }
 
-.life {
-  position: absolute;
-  top: 550px;
-  left: 55px;
-}
+  .life {
+    position: absolute;
+    top: 550px;
+    left: 55px;
+  }
 
-._1 {
-  position: absolute;
-  top: 910px;
-  left: 65px;
-}
+  ._1 {
+    position: absolute;
+    top: 910px;
+    left: 65px;
+  }
 
-.husband  {
-  position: absolute;
-  top: 960px;
-  left: 55px;
-}
+  .husband {
+    position: absolute;
+    top: 960px;
+    left: 55px;
+  }
 
-._2 {
-  position: absolute;
-  top: 1352px;
-  left: 65px;
-}
+  ._2 {
+    position: absolute;
+    top: 1352px;
+    left: 65px;
+  }
 
-.imagine {
-  position: absolute;
-  top: 1400px;
-  left: 55px;
-}
+  .imagine {
+    position: absolute;
+    top: 1400px;
+    left: 55px;
+  }
 
-._3 {
-  position: absolute;
-  top: 1830px;
-  left: 65px;
-}
+  ._3 {
+    position: absolute;
+    top: 1830px;
+    left: 65px;
+  }
 
-.yoda {
-  position: absolute;
-  top: 1880px;
-  left: 55px;
-}
+  .yoda {
+    position: absolute;
+    top: 1880px;
+    left: 55px;
+  }
 
-._4 {
-  position: absolute;
-  top: 2325px;
-  left: 65px;
-}
+  ._4 {
+    position: absolute;
+    top: 2325px;
+    left: 65px;
+  }
 
-.container_2_about  {
-  height: 1650px;
-}
+  .container_2_about {
+    height: 1650px;
+  }
 
-.container_1_portfolio, .container_2_about  {
-  margin: auto;
-}
+  .container_1_portfolio,
+  .container_2_about {
+    margin: auto;
+  }
 
-.col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
-  opacity: .5;
-  margin: 20px auto;
-}
+  .col-1_portfolio,
+  .col-2_portfolio,
+  .col-3_portfolio,
+  .col-4_portfolio {
+    opacity: 0.5;
+    margin: 20px auto;
+  }
 
-.col-1_contact  {
-  margin-left: 5px;
-  order: 1;
-}
+  .col-1_contact {
+    margin-left: 5px;
+    order: 1;
+  }
 
-.col-2_contact  {
-  order: 2;
-}
+  .col-2_contact {
+    order: 2;
+  }
 
-header  {
-  height: 60px;
-  margin: auto;
-}
+  header {
+    height: 60px;
+    margin: auto;
+  }
 
-._footer {
-  width: 100%;
-  height: 80px;
-}
+  ._footer {
+    width: 100%;
+    height: 80px;
+  }
 
-footer a {
-  font-size: 15px;
-  position: relative;
-  bottom: -15px;
-  left: 70px;
-}
+  footer a {
+    font-size: 15px;
+    position: relative;
+    bottom: -15px;
+    left: 70px;
+  }
 
-.facebook {
-  width: 10%;
-  padding: 10px;
-  position: relative;
-  bottom: 50px;
-  left: 250px;
-}
+  .facebook {
+    width: 10%;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+  }
 
-.linkedin  {
-  width: 11%;
-  padding: 10px;
-  position: relative;
-  bottom: 50px;
-  left: 250px;
-  z-index: 1;
-}
+  .linkedin {
+    width: 11%;
+    padding: 10px;
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+    z-index: 1;
+  }
 
-.white  {
-  width: 8%;
-  position: relative;
-  bottom: 61px;
-  left: 195px;
-}
+  .white {
+    width: 8%;
+    position: relative;
+    bottom: 61px;
+    left: 195px;
+  }
 
-h3 {
-  font-size: 25px;
-  text-align: left;
-  padding: 15px;
-  margin-left: 35px;
-}
+  h3 {
+    font-size: 25px;
+    text-align: left;
+    padding: 15px;
+    margin-left: 35px;
+  }
 
-#contact  {
-  max-width: 100%;
-  height: 600px;
-}
+  #contact {
+    max-width: 100%;
+    height: 600px;
+  }
 
-.col-1_contact  {
-  margin-left: 10px;
-  order: 1;
-}
+  .col-1_contact {
+    margin-left: 10px;
+    order: 1;
+  }
 
-label {
-  font-size: 25px;
-}
+  label {
+    font-size: 25px;
+  }
 
-.col-1_contact label {
-  position: absolute;
-  top: 190px;
-  left: 45px;                                                                                                                                             
-}
+  .col-1_contact label {
+    position: absolute;
+    top: 190px;
+    left: 45px;
+  }
 
-.col-1_contact_ label {
-  position: absolute;
-  top: 300px;
-  left: 45px;      
-}
- 
-.col-2_contact label {
-  position: absolute;
-  top: 450px;
-  left: 45px;
-}
+  .col-1_contact_ label {
+    position: absolute;
+    top: 300px;
+    left: 45px;
+  }
 
-.col-2_contact  {
-  order: 2;
-}
+  .col-2_contact label {
+    position: absolute;
+    top: 450px;
+    left: 45px;
+  }
 
-#name {
-  position: absolute;
-  top: 40px;
-  left: 5px;  
-}
+  .col-2_contact {
+    order: 2;
+  }
 
-#email {
-  position: absolute;
-  top: 40px;
-  left: 5px;
-}
+  #name {
+    position: absolute;
+    top: 40px;
+    left: 5px;
+  }
 
-input {
-  width: 300px;
-  height: 30px;
-}
+  #email {
+    position: absolute;
+    top: 40px;
+    left: 5px;
+  }
 
-textarea {
-  width: 300px;
-  height: 125px;
-  border: 1px solid #B76E79;
-  position: absolute;
-  top: 50px;
-  left: 5px;
-}
+  input {
+    width: 300px;
+    height: 30px;
+  }
 
-.button {
-  width: 35%;
-  padding: 15px;
-  position: absolute;
-  top: 650px;
-  left: 120px;
-}
+  textarea {
+    width: 300px;
+    height: 125px;
+    border: 1px solid #b76e79;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+  }
 
-.container_menu  {
-  height: 200px;
-  display: block;
-}
+  .button {
+    width: 35%;
+    padding: 15px;
+    position: absolute;
+    top: 650px;
+    left: 120px;
+  }
 
-.nav-menu  {
-  width: 100%;
-  height: 300px;
-  display: inline-block;
+  .container_menu {
+    height: 200px;
+    display: block;
+  }
 
-}
+  .nav-menu {
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+  }
 
-body .main-heading  {
-  font-size: 20px;
-  color: #78B76E;
-  display: inline;
-  text-decoration: none;
-}
+  body .main-heading {
+    font-size: 20px;
+    color: #78b76e;
+    display: inline;
+    text-decoration: none;
+  }
 
-.menu  {
-  display: block;
-  width: 15%;
-  position: relative;
-  top: 8px;
-  left: 315px;
-}
+  .menu {
+    display: block;
+    width: 15%;
+    position: relative;
+    top: 8px;
+    left: 315px;
+  }
 
-.mobile-nav li a {
-  padding: 10px;
+  .mobile-nav li a {
+    padding: 10px;
+  }
 }
-}
-
 
 /*tablet styles*/
-@media only screen and (min-width: 481px) and (max-width: 768px) {  
-
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 }
-}
-
 
 /*desktop styles*/
-@media only screen and (min-width:769px) {
-
-body {
+@media only screen and (min-width: 769px) {
+  body {
     background: white;
-}
+  }
 
-nav li {
-  display: inline;
-}
+  nav li {
+    display: inline;
+  }
 
-.container_1 {
+  .container_1 {
     display: flex;
     max-width: 100%;
-}
+  }
 
-h1 {
-  font-size: 40px;
-  margin-left: 20px;
-}
+  h1 {
+    font-size: 40px;
+    margin-left: 20px;
+  }
 
-.p-1 {
-  font-size: 25px;
-  margin-left: 20px;
-}
+  .p-1 {
+    font-size: 25px;
+    margin-left: 20px;
+  }
 
-.p-2 {
-  font-size: 25px;
-  position: relative;
-  top: 40px;
-  left: 20px;
-}
+  .p-2 {
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+  }
 
-.col-1_ {
-  flex: 1;
-  margin-top: 20px;
-}
+  .col-1_ {
+    flex: 1;
+    margin-top: 20px;
+  }
 
-.col-2_  {
-  flex: 2;
-  margin-top: 20px;                                                                                                                           
-}
+  .col-2_ {
+    flex: 2;
+    margin-top: 20px;
+  }
 
-.home  {
-  width: 50%;
-  padding: 10px;
-  position: relative;
-  top: 20px;
-  left: 340px;
-  border-radius: 10%;                                                                                                                                                                                                                                                                                                                                              
-}
+  .home {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    left: 340px;
+    border-radius: 10%;
+  }
 
-.action-button  {
-  font-size: 25px;
-  font-weight: bold;
-  text-align: left;
-  width: 80%;                                                                                                                                                            
-  position: relative;
-  top: 180px;
-  left: 5px;                                                          
-}
+  .action-button {
+    font-size: 25px;
+    font-weight: bold;
+    width: 80%;
+    position: relative;
+    top: 130px;
+    left: 7px;
+  }
 
-.container_1_about {
-  display: flex;
-  max-width: 100%;
-}
+  .container_1_about {
+    display: flex;
+    max-width: 100%;
+  }
 
-.container_2_about {
-  display: flex;
-  max-width: 100%;
-}
+  .container_2_about {
+    display: flex;
+    max-width: 100%;
+  }
 
-.container_3_about {
-  max-width: 100%;
-}
+  .container_3_about {
+    max-width: 100%;
+  }
 
-.col-1_about  {
-  flex: 1;
-  max-width: 100%;
-  height: 750px;
-}
+  .col-1_about {
+    flex: 1;
+    max-width: 100%;
+    height: 750px;
+  }
 
-.skills {
-  max-width: 80%;
-}
+  .skills {
+    max-width: 80%;
+  }
 
-.col-2_about  {
-  flex: 2;
-  max-width: 100%;
-  height: 300px;
-}
+  .col-2_about {
+    flex: 2;
+    max-width: 100%;
+    height: 300px;
+  }
 
-.col-3_about  {
-  flex: 3;
-  max-width: 100%;
-  height: 310px;
-}
+  .col-3_about {
+    flex: 3;
+    max-width: 100%;
+    height: 310px;
+  }
 
-.life {
-  width: 15%;
-  padding: 5px;
-  position: absolute;
-  top: 1025px;
-  left: 100px;
-}
+  .life {
+    width: 15%;
+    padding: 5px;
+    position: absolute;
+    top: 1025px;
+    left: 100px;
+  }
 
-._1 {
-  position: absolute;
-  top: 1000px;
-  left: 110px;
-}
+  ._1 {
+    position: absolute;
+    top: 1000px;
+    left: 110px;
+  }
 
-.husband  {
-  width: 14%;
-  padding: 5px;
-  position: absolute;
-  top: 1025px;
-  left: 400px;
-}
+  .husband {
+    width: 14%;
+    padding: 5px;
+    position: absolute;
+    top: 1025px;
+    left: 400px;
+  }
 
-._2 {
-  position: absolute;
-  top: 1000px;
-  left: 410px;
-}
+  ._2 {
+    position: absolute;
+    top: 1000px;
+    left: 410px;
+  }
 
-.imagine {
-  width: 13%;
-  padding: 5%;
-  position: absolute;
-  top: 970px;
-  left: 640px;
-}
+  .imagine {
+    width: 13%;
+    padding: 5%;
+    position: absolute;
+    top: 970px;
+    left: 640px;
+  }
 
-._3 {
-  position: absolute;
-  top: 1000px;
-  left: 710px;
-}
+  ._3 {
+    position: absolute;
+    top: 1000px;
+    left: 710px;
+  }
 
-.yoda {
-  width: 13%;
-  padding: 5%;
-  position: absolute;
-  top: 970px;
-  left: 920px;
-}
+  .yoda {
+    width: 13%;
+    padding: 5%;
+    position: absolute;
+    top: 970px;
+    left: 920px;
+  }
 
-._4 {
-  position: absolute;
-  top: 1000px;
-  left: 986px;
-}
+  ._4 {
+    position: absolute;
+    top: 1000px;
+    left: 986px;
+  }
 
-.container_1_portfolio, .container_2_about  {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-}
+  .container_1_portfolio,
+  .container_2_about {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
 
-.col-1_portfolio,  .col-2_portfolio, .col-3_portfolio,  .col-4_portfolio  {
-  opacity: .4;
-  margin-bottom: 25px;
-  margin-right: 25px;
-  margin-left: 25px;
-}
+  .col-1_portfolio,
+  .col-2_portfolio,
+  .col-3_portfolio,
+  .col-4_portfolio {
+    opacity: 0.4;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
 
-h3 {
-  font-size: 25px;
-  text-align: left;
-  padding: 30px;
-  margin-left: 80px;
-}
+  h3 {
+    font-size: 25px;
+    text-align: left;
+    padding: 30px;
+    margin-left: 80px;
+  }
 
-.container {
-  max-width: 100%;
-}
+  .container {
+    max-width: 100%;
+  }
 
-.col-1_contact  {
-  margin-left: 20px;
-  flex: 1;
-}
+  .col-1_contact {
+    margin-left: 20px;
+    flex: 1;
+  }
 
-.col-2_contact  {
-  flex: 2;
-}
+  .col-2_contact {
+    flex: 2;
+  }
 
-header, ._footer {
-  height: 90px;
-}
+  header,
+  ._footer {
+    height: 90px;
+  }
 
-._footer {
-  display: flex;
-  width: 100%;
-}
+  ._footer {
+    display: flex;
+    width: 100%;
+  }
 
-footer a {
-  font-size: 20px;
-  position: relative;
-  bottom: -15px;
-  left: 575px;
-}
+  footer a {
+    font-size: 20px;
+    position: relative;
+    bottom: -15px;
+    left: 575px;
+  }
 
-.facebook {
-  width: 8%;
-  padding: 10px;
-  position: relative;
-  bottom: 74px;
-  left: 1000px;
-}
+  .facebook {
+    width: 8%;
+    padding: 10px;
+    position: relative;
+    bottom: 74px;
+    left: 1000px;
+  }
 
-.linkedin  {
-  width: 9%;
-  padding: 10px;
-  position: relative;
-  bottom: 74px;
-  left: 999px;
-  z-index: 1;
-}
+  .linkedin {
+    width: 9%;
+    padding: 10px;
+    position: relative;
+    bottom: 74px;
+    left: 999px;
+    z-index: 1;
+  }
 
-.white  {
-  width: 7%;
-  position: relative;
-  bottom: 85px;
-  left: 910px;
-}
+  .white {
+    width: 7%;
+    position: relative;
+    bottom: 85px;
+    left: 910px;
+  }
 
-#contact  {
-  display: flex;
-  max-width: 100%;
-  height: 200px;
-}
+  #contact {
+    display: flex;
+    max-width: 100%;
+    height: 200px;
+  }
 
-.col-1_contact  {
-  margin-left: 20px;
-  flex: 1;
-}
+  .col-1_contact {
+    margin-left: 20px;
+    flex: 1;
+  }
 
-label {
-  font-size: 20px;
-}
+  label {
+    font-size: 20px;
+  }
 
-.col-1_contact label {
-  position: absolute;
-  top: 215px;
-  left: 110px;                                                                                                                                             
-}
+  .col-1_contact label {
+    position: absolute;
+    top: 215px;
+    left: 110px;
+  }
 
-.col-1_contact_ label {
-  position: absolute;
-  top: 310px;
-  left: 110px;      
-}
- 
-.col-2_contact label {
-  position: absolute;
-  top: 220px;
-  left: 650px;
-}
+  .col-1_contact_ label {
+    position: absolute;
+    top: 310px;
+    left: 110px;
+  }
 
-.col-2_contact  {
-  flex: 2;
-}
- 
-#name {
-  position: absolute;
-  top: 40px;
-  left: 5px;  
-}
+  .col-2_contact label {
+    position: absolute;
+    top: 220px;
+    left: 650px;
+  }
 
-#email {
-  position: absolute;
-  top: 40px;
-  left: 5px;
-}
+  .col-2_contact {
+    flex: 2;
+  }
 
-input {
-  width: 400px;
-  height: 30px;
-}
+  #name {
+    position: absolute;
+    top: 40px;
+    left: 5px;
+  }
 
-textarea {
-  width: 430px;
-  height: 125px;
-  border: 1px solid #B76E79;
-  position: absolute;
-  top: 35px;
-  left: 5px;
-}
+  #email {
+    position: absolute;
+    top: 40px;
+    left: 5px;
+  }
 
-.button {
-  width: 10%;
-  padding: 10px;
-  position: absolute;
-  top: 400px;
-  left: 965px;
-}
+  input {
+    width: 400px;
+    height: 30px;
+  }
 
-.menu, .nav-menu, .container_menu, body .main-heading   {
-  display: none;
-}
-}
+  textarea {
+    width: 430px;
+    height: 125px;
+    border: 1px solid #b76e79;
+    position: absolute;
+    top: 35px;
+    left: 5px;
+  }
 
+  .button {
+    width: 10%;
+    padding: 10px;
+    position: absolute;
+    top: 400px;
+    left: 965px;
+  }
+
+  .menu,
+  .nav-menu,
+  .container_menu,
+  body .main-heading {
+    display: none;
+  }
+}
